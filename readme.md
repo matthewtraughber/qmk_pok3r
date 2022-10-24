@@ -1,4 +1,5 @@
 # Quantum Mechanical Keyboard Firmware for POK3R
+#### NOTE: _This repository is a (manual) fork of [pok3r-custom\/qmk_pok3r](https://github.com/pok3r-custom/qmk_pok3), containing my specific Vortex POK3R config._
 
 This repository contains keyboard firmware based on the [qmk\_firmware](http://github.com/qmk/qmk_firmware) project for a number of Holtek MCU-based keyboards. See below for supported and planned keyboards.
 
@@ -8,8 +9,9 @@ This repository contains keyboard firmware based on the [qmk\_firmware](http://g
 
 ## Installation
 
-WARNING: This firmware only works on [unlocked](https://github.com/pok3r-custom/pok3r_re_firmware/wiki/HT32-Unlocking) keyboards.
-On not-unlocked keyboards, the firmware will hard fault at boot, requiring a JTAG programmer to reprogram.
+__WARNING: This firmware only works on [unlocked](https://github.com/pok3r-custom/pok3r_re_firmware/wiki/HT32-Unlocking) keyboards.__
+
+_On locked keyboards, the firmware will hard fault at boot, requiring a JTAG programmer to reprogram._
 
     ./pok3rtool -t pok3r flash "QMK_POK3R" <path_to_qmk_pok3r>/vortex_pok3r_default.bin
 
