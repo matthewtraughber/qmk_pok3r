@@ -1,5 +1,5 @@
 # Quantum Mechanical Keyboard Firmware for POK3R
-#### NOTE: _This repository is a (manual) fork of [pok3r-custom\/qmk_pok3r](https://github.com/pok3r-custom/qmk_pok3), containing my specific Vortex POK3R config. See [Ewpratten\/qmk_core](https://github.com/Ewpratten/qmk_core) for a Vortex Core focused fork._
+#### NOTE: _This repository is a (manual) fork of [pok3r-custom\/qmk_pok3r](https://github.com/pok3r-custom/qmk_pok3r), containing my specific Vortex POK3R config. See [Ewpratten\/qmk_core](https://github.com/Ewpratten/qmk_core) for a Vortex Core focused fork._
 
 This repository contains keyboard firmware based on the [qmk\_firmware](http://github.com/qmk/qmk_firmware) project for a number of Holtek MCU-based keyboards. See below for supported and planned keyboards.
 
